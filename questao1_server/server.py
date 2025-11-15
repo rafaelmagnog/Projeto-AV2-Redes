@@ -19,21 +19,21 @@ while True:
     connectionSocket, addr = (
         # Fill in start
         serverSocket.accept())
-    # Fill in end
+        # Fill in end
 
     try:
         # Recebe a mensagem do cliente (requisição HTTP)
         message = (
             # Fill in start
             connectionSocket.recv(1024).decode())
-        # Fill in end
+            # Fill in end
 
         filename = message.split()[1]
         f = open(filename[1:])
         outputdata = (
             # Fill in start
             f.read())
-        # Fill in end
+            # Fill in end
 
         # Envia a linha de status do cabeçalho HTTP
         # Fill in start
