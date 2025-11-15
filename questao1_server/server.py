@@ -16,17 +16,23 @@ serverSocket.listen(1)
 while True:
     # Estabelece a conexão
     print('Ready to serve...')
-    connectionSocket, addr = serverSocket.accept()  # Fill in start
+    connectionSocket, addr = (
+        # Fill in start
+        serverSocket.accept())
     # Fill in end
 
     try:
         # Recebe a mensagem do cliente (requisição HTTP)
-        message = connectionSocket.recv(1024).decode()  # Fill in start
+        message = (
+            # Fill in start
+            connectionSocket.recv(1024).decode())
         # Fill in end
 
         filename = message.split()[1]
         f = open(filename[1:])
-        outputdata = f.read()  # Fill in start
+        outputdata = (
+            # Fill in start
+            f.read())
         # Fill in end
 
         # Envia a linha de status do cabeçalho HTTP
