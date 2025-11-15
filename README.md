@@ -1,4 +1,5 @@
-# 🌐 Projeto AV2 — Redes de Computadores  
+# 🌐 Projeto AV2 — Redes de Computadores
+
 Servidor Web em Python + Análise HTTP com Wireshark
 
 [![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-orange)](#)
@@ -10,10 +11,10 @@ Servidor Web em Python + Análise HTTP com Wireshark
 Este repositório contém a implementação e documentação completas da **AV2 de Redes de Computadores**, que envolve:
 
 ✔ Construção de um **Servidor Web TCP em Python**  
-✔ Implementação baseada no **esqueleto oficial do professor**  
+✔ Implementação baseada no **esqueleto inicial do professor**  
 ✔ Testes com navegador e tratamento de erro **404 Not Found**  
 ✔ Análise de tráfego HTTP utilizando **Wireshark**  
-✔ Respostas estruturadas para as questões propostas no laboratório
+✔ Respostas estruturadas para as questões propostas na atividade
 
 ---
 
@@ -21,11 +22,11 @@ Este repositório contém a implementação e documentação completas da **AV2 
 
 O objetivo principal desta avaliação é desenvolver habilidades práticas de:
 
-- ⭐ Programação com **sockets TCP**  
-- ⭐ Entendimento do funcionamento de **requisições HTTP**  
-- ⭐ Construção manual de um **servidor Web simples**  
-- ⭐ Interpretação e análise de tráfego real usando **Wireshark**  
-- ⭐ Identificação de cabeçalhos, códigos de status, IPs, métodos e eventos HTTP
+* ⭐ Programação com **sockets TCP**
+* ⭐ Entendimento do funcionamento de **requisições HTTP**
+* ⭐ Construção manual de um **servidor Web simples**
+* ⭐ Interpretação e análise de tráfego real usando **Wireshark**
+* ⭐ Identificação de cabeçalhos, códigos de status, IPs, métodos e eventos HTTP
 
 A atividade simula, de forma simplificada, o funcionamento de um servidor real, permitindo compreender de maneira sólida o fluxo **cliente → servidor → cliente** no protocolo HTTP.
 
@@ -33,11 +34,11 @@ A atividade simula, de forma simplificada, o funcionamento de um servidor real, 
 
 ## 🛠️ Tecnologias Utilizadas
 
-- 🐍 **Python 3** — implementação do servidor TCP  
-- 📡 **Sockets (AF_INET, SOCK_STREAM)**  
-- 🕸️ **HTTP/1.1** (status 200 e 404)  
-- 🔎 **Wireshark** — captura e análise de pacotes  
-- 📝 **HTML básico** para página servida
+* 🐍 **Python 3** — implementação do servidor TCP
+* 📡 **Sockets (AF_INET, SOCK_STREAM)**
+* 🌍 **HTTP/1.1** (status 200 e 404)
+* 🔍 **Wireshark** — captura e análise de pacotes
+* 📄 **HTML básico** para página servida
 
 ---
 
@@ -64,7 +65,7 @@ A atividade simula, de forma simplificada, o funcionamento de um servidor real, 
 │       └── resp_2_304.png
 │
 └── README.md
-````
+```
 
 ---
 
@@ -72,13 +73,19 @@ A atividade simula, de forma simplificada, o funcionamento de um servidor real, 
 
 O servidor deve:
 
-✔ Criar socket TCP
-✔ Aceitar uma única requisição por vez
-✔ Ler a requisição HTTP enviada pelo navegador
-✔ Determinar o arquivo solicitado
-✔ Abrir e retornar o conteúdo com cabeçalho **HTTP/1.1 200 OK**
-✔ Tratar arquivos inexistentes com **HTTP/1.1 404 Not Found**
-✔ Seguir *estritamente* o esqueleto fornecido pelo professor
+✔ Criar socket TCP  
+✔ Aceitar uma única requisição por vez  
+✔ Ler a requisição HTTP enviada pelo navegador  
+✔ Determinar o arquivo solicitado  
+✔ Abrir e retornar o conteúdo com cabeçalho **HTTP/1.1 200 OK**  
+✔ Tratar arquivos inexistentes com **HTTP/1.1 404 Not Found**  
+✔ Seguir *estritamente* o esqueleto fornecido pelo professor  
+
+### 📝 Nota sobre o esqueleto do professor
+
+A implementação segue **exatamente** a estrutura disponibilizada na atividade,
+preenchendo somente os trechos delimitados por **#Fill in start** e **#Fill in end**,
+mantendo a lógica e formato originais conforme o propósito didático do exercício.
 
 ### 📌 Arquivos envolvidos
 
@@ -125,15 +132,15 @@ Nesta etapa, foi realizada uma análise completa do tráfego HTTP a partir das U
 
 ### 📌 Objetivos analisados:
 
-* Determinar versões do HTTP
-* Linguagens aceitas pelo navegador
-* IP de origem e destino
-* Códigos de status retornados
-* Verificar cabeçalho `Last-Modified`
-* Verificar o comportamento do cache com `If-Modified-Since`
-* Identificar quando o servidor retorna `304 Not Modified`
+* Identificar versões do HTTP
+* Verificar linguagens aceitas pelo navegador
+* Determinar IP de origem e destino
+* Analisar códigos de status retornados
+* Observar cabeçalho `Last-Modified`
+* Verificar comportamento do cache com `If-Modified-Since`
+* Identificar quando ocorre `304 Not Modified`
 
-Todos os resultados e prints estão no arquivo:
+Todos os resultados e evidências estão no arquivo:
 
 📄 **respostas_a_j.pdf**
 
@@ -143,12 +150,12 @@ Todos os resultados e prints estão no arquivo:
 
 1. Abra o Wireshark
 2. Selecione a interface correta
-3. Aplique filtro:
+3. Aplique o filtro:
 
    ```
    http
    ```
-4. Comece a captura
+4. Inicie a captura
 5. No navegador, acesse:
 
    ```
@@ -168,10 +175,9 @@ Todos os resultados e prints estão no arquivo:
 
 ---
 
+## 👥 Contribuidores
 
-## 🧑‍💻 Contribuidores
-
-- [Rafael Magno G.](https://github.com/rafaelmagnog)
-- [Renato Alexandre](https://github.com/RenatoAlexandre06)
+* [Rafael Magno G.](https://github.com/rafaelmagnog)
+* [Renato Alexandre](https://github.com/RenatoAlexandre06)
 
 ---
