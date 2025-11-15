@@ -4,9 +4,10 @@ Servidor Web em Python + Análise HTTP com Wireshark
 
 [![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-orange)](#)
 [![Disciplina](https://img.shields.io/badge/Disciplina-Redes%20de%20Computadores-blue)](#)
-[![Linguagem](https://img.shields.io/badge/Linguagem-Python-lightyellow)](#)
+[![Stack](https://img.shields.io/badge/Stack-Python-lightyellow)](#)
 [![Ferramenta](https://img.shields.io/badge/Ferramenta-Wireshark-cyan)](#)
-[![Idioma](https://img.shields.io/badge/Idioma-PT--BR-green)](#)
+[![Idioma: PT-BR](https://img.shields.io/badge/Idioma-PT--BR-green)](README.md)
+[![Language: EN](https://img.shields.io/badge/Language-English-red)](README.en.md)
 
 Este repositório contém a implementação e documentação completas da **AV2 de Redes de Computadores**, que envolve:
 
@@ -181,3 +182,4 @@ Todos os resultados e evidências estão no arquivo:
 * [Renato Alexandre](https://github.com/RenatoAlexandre06)
 
 ---
+
