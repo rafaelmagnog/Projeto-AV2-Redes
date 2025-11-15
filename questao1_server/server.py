@@ -19,25 +19,33 @@ while True:
     connectionSocket, addr = (
         # Fill in start
         serverSocket.accept())
-        # Fill in end
+    # Fill in end
 
     try:
         # Recebe a mensagem do cliente (requisição HTTP)
         message = (
             # Fill in start
             connectionSocket.recv(1024).decode())
-            # Fill in end
+        # Fill in end
+
+        # Caso a requisição venha vazia, evita crash
+        if len(message) < 1:
+            connectionSocket.close()
+            continue
 
         filename = message.split()[1]
-        f = open(filename[1:])
+
+        # Abre o arquivo solicitado com encoding seguro
+        f = open(filename[1:], encoding="utf-8")
         outputdata = (
             # Fill in start
             f.read())
-            # Fill in end
+        # Fill in end
 
-        # Envia a linha de status do cabeçalho HTTP
+        # Envia o cabeçalho HTTP 200 OK
         # Fill in start
-        connectionSocket.send("HTTP/1.1 200 OK\r\n\r\n".encode())
+        connectionSocket.send(
+            "HTTP/1.1 200 OK\r\nContent-Type: text/html; charset=UTF-8\r\n\r\n".encode())
         # Fill in end
 
         # Envia o conteúdo do arquivo ao cliente
@@ -51,9 +59,12 @@ while True:
     except IOError:
         # Envia mensagem de erro 404 se o arquivo não for encontrado
         # Fill in start
-        connectionSocket.send("HTTP/1.1 404 Not Found\r\n\r\n".encode())
         connectionSocket.send(
-            "<html><body><h1>404 Not Found</h1></body></html>".encode())
+            "HTTP/1.1 404 Not Found\r\nContent-Type: text/html; charset=UTF-8\r\n\r\n".encode())
+
+        f = open("404.html", encoding="utf-8")
+        error_page = f.read()
+        connectionSocket.send(error_page.encode())
         # Fill in end
 
         # Fecha o socket do cliente
