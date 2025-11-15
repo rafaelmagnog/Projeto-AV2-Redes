@@ -6,7 +6,7 @@ Python Web Server + HTTP Analysis with Wireshark
 [![Course](https://img.shields.io/badge/Course-Computer%20Networks-blue)](#)
 [![Stack](https://img.shields.io/badge/Stack-Python-lightyellow)](#)
 [![Tool](https://img.shields.io/badge/Tool-Wireshark-cyan)](#)
-[![Idioma: PT-BR](https://img.shields.io/badge/Linguagem-Português-green)](README.md)
+[![Idioma: PT-BR](https://img.shields.io/badge/Idioma-PT--BR-green)](README.md)
 [![Language: EN](https://img.shields.io/badge/Language-English-red)](README.en.md)
 
 This repository contains the full implementation and documentation for the **AV2 (Assessment 2) of the Computer Networks course**, which includes:
