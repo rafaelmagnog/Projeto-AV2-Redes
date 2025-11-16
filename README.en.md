@@ -52,16 +52,16 @@ This activity simulates, in a simplified manner, the behavior of a real web serv
 │   ├── HelloWorld.html
 │   └── 📁 prints
 │       ├── servidor_iniciado.png
-│       ├── teste_200.png
-│       └── teste_404.png
+│       ├── teste_200.jpeg
+│       └── teste_404.jpeg
 │
 ├── 📁 questao2_wireshark
 │   ├── Respostas AV2 - Redes de Computadores.pdf
 │   └── 📁 prints
-│       ├── req_1_get.png
-│       ├── resp_1_200.png
-│       ├── req_2_get.png
-│       └── resp_2_304.png
+│       ├── req_1_get.jpeg
+│       ├── resp_1_200.jpeg
+│       ├── req_2_get.jpeg
+│       └── resp_2_304.jpeg
 │
 └── README.md
 ```
