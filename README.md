@@ -50,6 +50,7 @@ A atividade simula, de forma simplificada, o funcionamento de um servidor real, 
 ├── 📁 questao1_server
 │   ├── server.py
 │   ├── HelloWorld.html
+│   ├── 404.html   # Retorno 404 estilizado
 │   └── 📁 prints
 │       ├── servidor_iniciado.png
 │       ├── teste_200.jpeg
@@ -183,6 +184,7 @@ Todos os resultados e evidências estão no arquivo:
 * [Renato Alexandre](https://github.com/RenatoAlexandre06)
 
 ---
+
 
 
 
