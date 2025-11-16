@@ -56,9 +56,7 @@ This activity simulates, in a simplified manner, the behavior of a real web serv
 │       └── teste_404.png
 │
 ├── 📁 questao2_wireshark
-│   ├── respostas_a_j.pdf
-│   ├── captura_file1.pcap
-│   ├── captura_file2.pcap
+│   ├── Respostas AV2 - Redes de Computadores.pdf
 │   └── 📁 prints
 │       ├── req_1_get.png
 │       ├── resp_1_200.png
@@ -116,7 +114,7 @@ http://127.0.0.1:6789/HelloWorld.html
 #### 4. Test a nonexistent file:
 
 ```
-http://127.0.0.1:6789/naoexiste.html
+http://127.0.0.1:6789/DoesntExist.html
 ```
 
 If implemented correctly, the server will return **404 Not Found**.
@@ -142,7 +140,7 @@ This part consists of a complete HTTP packet analysis using the URLs from the of
 
 All answers and screenshots are included in:
 
-📄 **respostas_a_j.pdf**
+📄 **Respostas AV2 - Redes de Computadores.pdf**
 
 ---
 
@@ -162,7 +160,11 @@ All answers and screenshots are included in:
    http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file1.html
    ```
 6. Stop the capture and analyze
-7. Repeat for `HTTP-wireshark-file2.html`
+7. Repeat for `HTTP-wireshark-file2.html`:
+   
+   ```
+   http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file2.html
+   ```
 
 ---
 
