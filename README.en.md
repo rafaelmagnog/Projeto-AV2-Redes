@@ -170,7 +170,6 @@ All answers and screenshots are included in:
 
 ## 📘 References
 
-* KUROSE, James; ROSS, Keith. *Computer Networking: A Top-Down Approach*
 * Python Documentation — **socket** module
 * Wireshark — [https://www.wireshark.org/](https://www.wireshark.org/)
 * Course material provided by the professor
