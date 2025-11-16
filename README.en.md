@@ -50,6 +50,7 @@ This activity simulates, in a simplified manner, the behavior of a real web serv
 ├── 📁 questao1_server
 │   ├── server.py
 │   ├── HelloWorld.html
+│   ├── 404.html   # styled 404 error response
 │   └── 📁 prints
 │       ├── servidor_iniciado.png
 │       ├── teste_200.jpeg
