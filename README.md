@@ -171,7 +171,6 @@ Todos os resultados e evidências estão no arquivo:
 
 ## 📘 Referências
 
-* KUROSE, James; ROSS, Keith. *Redes de Computadores e a Internet*
 * Documentação Python — Módulo **socket**
 * Wireshark — [https://www.wireshark.org/](https://www.wireshark.org/)
 * Material fornecido pelo professor
@@ -184,6 +183,7 @@ Todos os resultados e evidências estão no arquivo:
 * [Renato Alexandre](https://github.com/RenatoAlexandre06)
 
 ---
+
 
 
 
