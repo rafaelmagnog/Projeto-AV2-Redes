@@ -56,9 +56,7 @@ A atividade simula, de forma simplificada, o funcionamento de um servidor real, 
 │       └── teste_404.png
 │
 ├── 📁 questao2_wireshark
-│   ├── respostas_a_j.pdf
-│   ├── captura_file1.pcap
-│   ├── captura_file2.pcap
+│   ├── Respostas AV2 - Redes de Computadores.pdf
 │   └── 📁 prints
 │       ├── req_1_get.png
 │       ├── resp_1_200.png
@@ -163,7 +161,11 @@ Todos os resultados e evidências estão no arquivo:
    http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file1.html
    ```
 6. Pare a captura e analise
-7. Repita com `HTTP-wireshark-file2.html`
+7. Repita com `HTTP-wireshark-file2.html`:
+
+   ```
+   http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file2.html
+   ```
 
 ---
 
@@ -182,4 +184,5 @@ Todos os resultados e evidências estão no arquivo:
 * [Renato Alexandre](https://github.com/RenatoAlexandre06)
 
 ---
+
 
