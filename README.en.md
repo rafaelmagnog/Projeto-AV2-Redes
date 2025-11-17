@@ -2,7 +2,7 @@
 
 Python Web Server + HTTP Analysis with Wireshark
 
-[![Status](https://img.shields.io/badge/Status-In%20Development-orange)](#)
+[![Status](https://img.shields.io/badge/Status-Completed-lightgreen)](#)
 [![Course](https://img.shields.io/badge/Course-Computer%20Networks-blue)](#)
 [![Stack](https://img.shields.io/badge/Stack-Python-lightyellow)](#)
 [![Tool](https://img.shields.io/badge/Tool-Wireshark-cyan)](#)
