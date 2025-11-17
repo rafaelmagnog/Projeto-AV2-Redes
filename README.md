@@ -2,7 +2,7 @@
 
 Servidor Web em Python + Análise HTTP com Wireshark
 
-[![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-orange)](#)
+[![Status](https://img.shields.io/badge/Status-Concluído-lightgreen)](#)
 [![Disciplina](https://img.shields.io/badge/Disciplina-Redes%20de%20Computadores-blue)](#)
 [![Stack](https://img.shields.io/badge/Stack-Python-lightyellow)](#)
 [![Ferramenta](https://img.shields.io/badge/Ferramenta-Wireshark-cyan)](#)
@@ -184,6 +184,7 @@ Todos os resultados e evidências estão no arquivo:
 * [Renato Alexandre](https://github.com/RenatoAlexandre06)
 
 ---
+
 
 
 
